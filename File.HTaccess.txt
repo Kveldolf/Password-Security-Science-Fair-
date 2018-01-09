@@ -1,0 +1,6 @@
+AuthUserFile /path/to/htpasswd/file/.htpasswd
+ AuthGroupFile /dev/null
+ AuthName "testing12"
+ AuthType Basic
+ require valid-user
+ 
